@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Assortiment from './Assortiment';
+import Contact from './Contact';
+import Header from './Header';
+import Heading from './Heading';
+import Review from './Review';
+import WhyWeAre from './WhyWeAre';
+import { LanguageProvider } from './LanguageContext';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LanguageProvider>
+      <Header/>
+      <Heading/>
+      <Assortiment/>
+      <WhyWeAre/>
+      <Review/>
+      <Contact/>
+      </LanguageProvider>
     </div>
   );
 }
-
 export default App;
