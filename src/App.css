@@ -403,3 +403,40 @@ h1 {
     font-size: 13px;
   }
 }
+@media all and (max-width: 400px) {
+  .icon {
+    width: 10px;
+    height: 14px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .location {
+    display: none;
+  }
+  .cakeHeading {
+    width: 100px;
+    height: 100px;
+  }
+  .moments {
+    font-size: 10px;
+    margin-left: 0px;
+  }
+  .pavlova {
+    display: none;
+  }
+  .momentsText {
+    display: flex;
+    justify-content: center;
+  }
+  .item{
+    width: 150px;
+  }
+  .itemImg {
+    width: 130px;
+    height: 140px;
+  }
+  p, h4 {
+    font-size: 12px;
+  }
+}
