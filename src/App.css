@@ -412,7 +412,7 @@ h1 {
     font-size: 20px;
   }
   .location {
-    display: none;
+    font-size: 10px;
   }
   .cakeHeading {
     width: 100px;
@@ -421,6 +421,7 @@ h1 {
   .moments {
     font-size: 10px;
     margin-left: 0px;
+    padding: 0px;
   }
   .pavlova {
     display: none;
@@ -438,5 +439,8 @@ h1 {
   }
   p, h4 {
     font-size: 12px;
+  }
+  .headerMoments {
+    margin-top: 10px;
   }
 }
